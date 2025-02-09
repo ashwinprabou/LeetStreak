@@ -1,0 +1,72 @@
+h1 {
+  font-size: 6em;
+  line-height: 1.1;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: 900;
+}
+
+h2 {
+  margin-left: 20px;
+  font-size: 2.7em;
+  font-weight: 300;
+}
+
+h2 .yellow {
+  font-weight: 700;
+}
+
+.getStartedBig,
+.signup,
+.login {
+  position: relative;
+  font-family: "Figtree", serif;
+  font-weight: 100;
+  font-size: 2.5rem;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ffc533;
+  color: black;
+  cursor: pointer;
+  border-color: white;
+  border: 3px solid white;
+  transition: 0.2s;
+  left: 20px;
+  top: 30px;
+}
+
+.signup {
+  position: relative;
+  top: -30px;
+  left: 530px;
+  font-size: 1.7rem;
+}
+
+.login {
+  background-color: #161616;
+  color: #ffc533;
+  position: relative;
+  top: -30px;
+  left: 500px;
+  font-size: 1.7rem;
+}
+
+button:hover {
+  background-color: #e28930;
+  color: white;
+}
+
+.login:hover {
+  background-color: white;
+  color: black;
+  border: 3px solid #ffc533;
+}
+
+img {
+  height: auto;
+  object-fit: contain;
+  position: relative;
+  top: -60px;
+  width: auto;
+}
