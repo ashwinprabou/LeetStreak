@@ -1,3 +1,8 @@
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
 h1 {
   font-size: 6em;
   line-height: 1.1;
@@ -18,7 +23,8 @@ h2 .yellow {
 
 .getStartedBig,
 .signup,
-.login {
+.login,
+.about {
   position: relative;
   font-family: "Figtree", serif;
   font-weight: 100;
@@ -44,12 +50,24 @@ h2 .yellow {
 }
 
 .login {
-  background-color: #161616;
-  color: #ffc533;
+  position: relative;
+  border: 3px solid white;
+  background-color: transparent;
+  color: #ffffff;
   position: relative;
   top: -30px;
   left: 500px;
   font-size: 1.7rem;
+}
+
+.about {
+  position: relative;
+  border: 1px solid white;
+  background-color: transparent;
+  color: #ffffff;
+  top: 100px;
+  left: 660px;
+  font-size: 1.2rem;
 }
 
 button:hover {
@@ -61,6 +79,12 @@ button:hover {
   background-color: white;
   color: black;
   border: 3px solid #ffc533;
+}
+
+.about:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #ffc533;
 }
 
 img {

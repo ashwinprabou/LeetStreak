@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./landing.css";
+import "./leetstreak.css";
 
 const Landing: React.FC = () => {
   const navigate = useNavigate();
@@ -16,8 +16,8 @@ const Landing: React.FC = () => {
     { text: ".", className: "white" },
   ];
   const sen3 = [
-    { text: "To", className: "white" },
-    { text: " ignite ", className: "yellow" },
+    //{ text: "", className: "white" },
+    { text: " Ignite ", className: "yellow" },
     { text: "that motivation and better your peers.", className: "white" },
   ];
 
@@ -63,6 +63,11 @@ const Landing: React.FC = () => {
       >
         Get Started!
       </button>
+      <h3>
+        <button className="about" onClick={() => navigate("/about.tsx")}>
+          About
+        </button>
+      </h3>
     </div>
   );
 };
